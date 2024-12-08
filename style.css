@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body{
+
+    background: #f4f0e3;
+}
+
+#intro-text span{
+    display: inline-block;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css"
+        integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="w-[50vw] fixed z-50 h-screen top-0 left-[0] bg-[#4260f5]" id="open-y-left" ></div>
+    <div class="w-[50vw] fixed z-50 h-screen right-0 top-0 bg-[#4260f5]" id="open-y-right"></div>
+    <nav class="sticky top-0 flex flex-row items-center justify-between w-full py-[3vmax] px-[4vmax]" >
+        <div class="flex flex-row items-center justify-start h-full w-full">
+            <img src="https://assets.website-files.com/60941860f4121d5ecad5ba10/60b8d1c4d18afd10256a7567_jb-logo-sm-dark.svg"
+                alt="" id="logo-left">
+            <h1 class="px-3">|</h1>
+            <img src="https://assets.website-files.com/60941860f4121d5ecad5ba10/60b8d1c4c78551a1a453e0b1_w-logo-sm-dark.svg"
+                alt="" id="logo-right">
+        </div>
+        <div class="flex flex-row items-center justify-end w-full" id="nav-right">
+            <i class="ri-menu-line cursor-pointer text-2xl py-3 px-4 mx-[1vmax] bg-[#f4f0e3] rounded-full"></i>
+            <button class="px-[2vmax] rounded-full py-[1vmax] bg-yellow-400 text-[2.2vmin] whitespace-nowrap	">Buy
+                Course</button>
+        </div>
+    </nav>
+
+    <section class="sm:mx-[6vmax] mx-auto w-4/5 leading-[1] sm:my-36 my-12 text-[#292929]">
+
+        <h1 class="font-[400] text-[10vmin]" id="mh-1">A Test Website</h1>
+        <h1 class="font-[400] text-[10vmin]" id="mh-2">Made By Me</h1>
+        <h1 class="font-[400] text-[10vmin]" id="mh-3">to Show Everyone</h1>
+
+    </section>
+
+    <section>
+        <div class="w-[85%] overflow-hidden aspect-[3/4] sm:aspect-video bg-yellow-400 mx-auto" id="intro-video">
+            <img class="w-full h-full object-cover object-center" src="bg.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="w-[85%] sm:flex mx-auto sm:my-32 my-16 ">
+        <div class="sm:w-1/2">
+            <p class="sm:text-xl text-sm my-5 sm:my-0">INTRO</p>
+        </div>
+        <div class="sm:w-1/2 sm:text-[3vmin] leading-[1.5]">
+            <p id="intro-text">Animation and Interaction is a fundamental part in creating engaging and exciting experiences. Learn the crucial techniques in creating advanced animations and interactions inside of Webflow.</p>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="animations.js"></script>
+</body>
+
+</html>
